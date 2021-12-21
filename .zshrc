@@ -38,7 +38,7 @@ export EDITOR=vim
 
 alias 'l=ls -alh --color'
 alias 'll=ls -lh --color'
-alias 'c=clear'
+alias 'c=printf "\033[H\033[2J"' 
 alias 'x=exit'
 alias '..=cd ..'
 alias '...=cd ../..'
