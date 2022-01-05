@@ -11,7 +11,6 @@ source $HOME/.config/nvim/plugins/vim-test.vim
 source $HOME/.config/nvim/plugins/vimspector.vim
 source $HOME/.config/nvim/plugins/coc.vim
 source $HOME/.config/nvim/plugins/vim-startify.vim
-source $HOME/.config/nvim/plugins/markdown-preview.vim
 call plug#end()
 
 
