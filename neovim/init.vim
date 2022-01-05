@@ -12,7 +12,7 @@ source $HOME/.config/nvim/plugins/vimspector.vim
 source $HOME/.config/nvim/plugins/coc.vim
 source $HOME/.config/nvim/plugins/vim-startify.vim
 source $HOME/.config/nvim/plugins/markdown-preview.vim
-all plug#end()
+call plug#end()
 
 
 set encoding=utf-8                " encoding to use
