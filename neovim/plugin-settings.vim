@@ -264,8 +264,8 @@ nnoremap <leader>s :Startify<CR>
 
 "------------------------------------------------------------------------------
 " treesitter settings
-set foldmethod=expr
-set foldexpr=nvim_treesitter#foldexpr()
+" set foldmethod=expr
+" set foldexpr=nvim_treesitter#foldexpr()
 lua <<EOF
 require'nvim-treesitter.configs'.setup {
   -- One of "all", "maintained" (parsers with maintainers), or a list of languages
