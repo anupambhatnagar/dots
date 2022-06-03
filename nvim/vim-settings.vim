@@ -67,3 +67,6 @@ augroup END
 " set height and width of floaterm window
 let g:floaterm_height=0.8
 let g:floaterm_width=0.8
+
+" set cursor to underline on exit
+:au VimLeave * set guicursor=a:hor25-blinkon10
