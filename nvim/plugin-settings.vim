@@ -245,6 +245,8 @@ nmap <leader>N :NERDTreeFind<CR>
 "------------------------------------------------------------------------------
 "sneak settings
 let g:sneak#label = 1
+" make search case insensitive
+let g:sneak#use_ic_scs = 1
 
 
 "------------------------------------------------------------------------------
