@@ -298,8 +298,17 @@ EOF
 
 "------------------------------------------------------------------------------
 " vimspector settings
-let g:vimspector_enable_mappings = 'HUMAN'
+"let g:vimspector_enable_mappings = 'HUMAN'
 let g:vimspector_install_gadgets = ['debugpy', 'vscode-cpptools']
+nmap <F4> :call vimspector#Launch()<CR>
+nmap <F5> <Plug>VimspectorContinue<CR>
+nmap <F6> :VimspectorStop<CR>
+nmap <F7> :VimspectorReset<CR>
+
+nmap <F9> <Plug>VimspectorToggleBreakpoint
+nmap <F10> <Plug>VimspectorStepOver
+nmap <F11> <Plug>VimspectorStepInto
+nmap <F12> <Plug>VimspectorStepOut
 
 function! PythonStrategy(cmd)
   call vimspector#LaunchWithSettings(#{configuration : 'pytest', testName : split(a:cmd, '::')[1]})
@@ -308,7 +317,7 @@ endfunction
 let test#custom_strategies = {'testpy': function('PythonStrategy')}
 
 function! CppStrategy(input)
-  call vimspector#LaunchWithSettings(#{configuration: 'debug_single_test', testName: a:input})
+  call vimspector#LaunchWithSettings(#{configuration: 'debug_test', testName: a:input})
 endfunction
 
 
@@ -316,12 +325,6 @@ endfunction
 " vim-test settings
 let test#strategy = "neovim"
 let test#neovim#term_position = "vert"
-let g:test#python#pytest#executable = 'python3 -m pytest'
+let g:test#python#pytest#executable = 'python3 -m pytest -rA'
 
-
-"------------------------------------------------------------------------------
-" vimwiki settings
-"let g:vimwiki_list = [{'path': '~/vimwiki', 'syntax': 'markdown', 'ext': '.md'}]
-"let g:vimwiki_ext2syntax = {'.md': 'markdown', '.markdown': 'markdown', '.mdown': 'markdown'}
-"make vimwiki markdown links as [text](text.md) instead of [text](text)
-"let g:vimwiki_markdown_link_ext = 1
+nmap <leader>rt :TestNearest<CR>
