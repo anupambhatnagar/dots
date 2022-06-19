@@ -210,6 +210,9 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>u
 "coc-markdownlint
 nnoremap <leader>fl <Plug>(coc-codeaction)
 
+"coc-extensions to install
+let g:coc_global_extensions = ['coc-pyright', 'coc-sh', 'coc-yaml', 'coc-json', 'coc-git', 'coc-markdownlint', 'coc-clangd', 'coc-cmake']
+
 
 "------------------------------------------------------------------------------
 " vim-floaterm settings

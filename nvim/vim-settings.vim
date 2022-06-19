@@ -6,8 +6,8 @@ set cursorline                    " highlight current line
 set wildmenu                      " visual autocomplete for command menu
 set background=dark               " for dark themes
 set tabstop=2                     " number of visual spaces per tab
-set expandtab                     " convert tab to spaces
 set shiftwidth=2
+set expandtab                     " convert tab to spaces
 "set softtabstop=2                " number of spaces in tab when editing
 set incsearch                     " search as characters are entered
 set nohlsearch                    " highlight matches
