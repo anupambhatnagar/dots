@@ -49,6 +49,21 @@ nmap <leader>cc :CMakeClean<cr>
 nmap <leader>cq :CMakeClose<cr>
 
 
+"------------------------------------------------------------------------------
+" vim devicons settings
+" fix for square bracket around icons
+" if syntax is not on, then enable it
+if !exists('g:syntax_on')
+  syntax enable
+endif
+
+" if webdevicons are loaded then refresh them
+if exists("g:loaded_webdevicons")
+  call webdevicons#refresh()
+endif
+
+
+"------------------------------------------------------------------------------
 " vim-obsession settings
 " make and break session
 nmap <leader>ms :Obsession<CR>
