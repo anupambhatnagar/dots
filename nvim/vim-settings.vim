@@ -66,3 +66,14 @@ augroup END
 
 " set cursor to underline on exit
 :au VimLeave * set guicursor=a:hor25-blinkon10
+
+" this code snippet removes the square brackets from Nerdtree devicons.
+" if syntax is not on, then enable it.
+if !exists('g:syntax_on')
+  syntax enable
+endif
+
+" if webdevicons are loaded then refresh them.
+if exists("g:loaded_webdevicons")
+  call webdevicons#refresh()
+endif
