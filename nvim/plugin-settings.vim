@@ -60,7 +60,9 @@ nmap <leader>bs :Obsession!<CR>
 nnoremap <silent> <leader>t :FloatermToggle<CR>
 tnoremap <silent> <leader>t <C-\><C-n>:FloatermToggle<CR>
 hi FloatermBorder guibg=orange
-
+" set height and width of floaterm window
+let g:floaterm_height=0.8
+let g:floaterm_width=0.8
 
 "------------------------------------------------------------------------------
 " fzf settings
