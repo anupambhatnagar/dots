@@ -29,7 +29,7 @@ set cmdheight=2                   " more space for displaying messages
 set updatetime=200                " shorter updatetime (default 4000 ms$)
 set shortmess+=c                  " do not pass messages to |ins-completion-menu|.
 set signcolumn=auto:2             " sign column width for git diff markers
-set autochdir                     " auto change dir on opening files, switching buffers etc.
+"set autochdir                    " auto change dir on opening files, switching buffers etc.
 set termguicolors                 " enables 24 bit rgb color in TUI
 set colorcolumn=100               " shows a vertical line at specified column
 colorscheme molokai               " theme name
