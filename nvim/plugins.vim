@@ -1,3 +1,8 @@
+" Install vim-plug if not found
+if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
+  silent !curl -fLo $HOME/.local/share/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+endif
+
 call plug#begin('~/.config/nvim/sources')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -15,6 +20,7 @@ Plug 'preservim/nerdtree'
 Plug 'mtth/scratch.vim'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
+Plug 'fladson/vim-kitty'
 Plug 'anupambhatnagar/vim-obsession'
 Plug 'justinmk/vim-sneak'
 Plug 'mhinz/vim-startify'

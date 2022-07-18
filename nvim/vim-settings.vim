@@ -32,7 +32,7 @@ set signcolumn=auto:2             " sign column width for git diff markers
 "set autochdir                    " auto change dir on opening files, switching buffers etc.
 set termguicolors                 " enables 24 bit rgb color in TUI
 set colorcolumn=100               " shows a vertical line at specified column
-colorscheme molokai               " theme name
+colorscheme solarized8_dark_high  " theme name
 syntax on                         " use syntax highlighting
 filetype plugin on                " enable the plugin to detect filetype
 

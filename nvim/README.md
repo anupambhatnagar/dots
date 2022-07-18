@@ -17,3 +17,13 @@
 
 ## Python3 support for neovim (required for Vimspector)
 `pip3 install --upgrade neovim`
+
+## Install Neovim on Linux
+Use the app image if sudo access is not available.
+See [here](https://github.com/neovim/neovim/wiki/Installing-Neovim#appimage-universal-linux-package)
+
+If root, access is available then follow the instructions
+[here](https://github.com/neovim/neovim/wiki/Installing-Neovim#appimage-universal-linux-package)
+
+## Install Neovim on Mac
+See [here](https://github.com/neovim/neovim/wiki/Installing-Neovim#appimage-universal-linux-package)
