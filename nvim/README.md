@@ -9,6 +9,8 @@
 
 ## Install Node on Ubuntu
 - follow these [instructions](https://github.com/nodesource/distributions#installation-instructions)
+- If root access is not available, wget the node binary from [here](https://nodejs.org/en/download/)
+  and add it to the PATH variable.
 
 ## Icons in nerdtree
 - clone nerd-fonts from [here](https://github.com/ryanoasis/nerd-fonts)

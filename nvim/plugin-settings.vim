@@ -356,4 +356,4 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 " nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>u
 
 "coc-extensions to install
-let g:coc_global_extensions = ['coc-pyright', 'coc-sh', 'coc-yaml', 'coc-json', 'coc-git', 'coc-markdownlint', 'coc-clangd', 'coc-cmake']
+let g:coc_global_extensions = ['coc-pyright', 'coc-sh', 'coc-yaml', 'coc-json', 'coc-git', 'coc-clangd', 'coc-cmake']
