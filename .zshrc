@@ -73,7 +73,7 @@ OS=`uname`
 if [[ "$OS" = "Darwin" ]]; then
   export PATH=/Applications/CMake.app/Contents/bin:$PATH
   export PATH=/usr/local/Cellar/ruby/3.1.2/bin:$PATH
-  export PATH=/usr/local/Cellar/python@3.9/3.9.13_1/bin:$PATH
+  export PATH=/usr/local/Cellar/python@3.10/3.10.6_1/bin:$PATH
 
   alias 'devfair=et devfair:8080 --jport 8080 -x'
 

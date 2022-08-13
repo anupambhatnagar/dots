@@ -121,7 +121,8 @@ let g:sneak#use_ic_scs = 1
 " startify settings
 let g:startify_bookmarks = [
   \ {'z': '~/.zshrc'},
-  \ {'v': '~/.config/nvim/init.vim'}
+  \ {'v': '~/.config/nvim/init.vim'},
+  \ {'k': '~/github/dots/kitty/kitty.conf'}
   \ ]
 
 let g:startify_lists = [
