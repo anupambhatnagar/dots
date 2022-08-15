@@ -69,11 +69,3 @@ set guicursor=v-c-sm:block,n-i-ci-ve:ver25,r-cr-o:hor20
 
 " set cursor to underline on exit
 ":au VimLeave * set guicursor=a:hor25-blinkon10
-
-" set python3 host program for nvim
-let host = system('hostname')
-if host== "devfair0234\n"
-  let g:python3_host_prog="~/anupamb/miniconda3/bin/python3"
-elseif host == 'anupamb-mbp\n'
-  let g:python3_host_prog="/usr/local/Cellar/python@3.10/3.10.6_1/bin/python3"
-endif

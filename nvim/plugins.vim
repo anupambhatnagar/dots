@@ -6,7 +6,6 @@ endif
 call plug#begin('~/.config/nvim/sources')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'itchyny/calendar.vim'
 Plug 'cdelledonne/vim-cmake'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'flazz/vim-colorschemes'
@@ -17,12 +16,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'alepez/vim-gtest'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'preservim/nerdtree'
-Plug 'mtth/scratch.vim'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
-Plug 'fladson/vim-kitty'
 Plug 'anupambhatnagar/vim-obsession'
-Plug 'justinmk/vim-sneak'
 Plug 'mhinz/vim-startify'
 Plug 'puremourning/vimspector'
 Plug 'vim-test/vim-test'
