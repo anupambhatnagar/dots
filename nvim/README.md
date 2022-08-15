@@ -18,7 +18,7 @@
 - change font in iTerm to Hack Nerd Font Mono
 
 ## Python3 support for neovim (required for Vimspector)
-`pip3 install --upgrade neovim`
+`pip3 install --user --upgrade neovim pynvim`
 
 ## Install Neovim on Linux
 Use the app image if sudo access is not available.

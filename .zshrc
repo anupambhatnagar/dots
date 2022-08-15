@@ -52,22 +52,6 @@ alias 'gl=git log --oneline'
 alias 'gp=git pull'
 alias 'gs=git status --short'
 
-
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/anupamb/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/anupamb/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/anupamb/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/anupamb/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
 OS=`uname`
 
 if [[ "$OS" = "Darwin" ]]; then
@@ -84,8 +68,3 @@ else if [[ "$OS" = "Linux" ]]
   
   source /etc/profile.d/modules.sh
 fi
-
-
-# unused stuff
-# Setup Keychain
-#eval `/Users/anupamb/github/keychain/keychain --eval --agents ssh --inherit any id_rsa`
