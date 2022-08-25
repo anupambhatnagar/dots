@@ -134,6 +134,11 @@ nnoremap <leader>s :Startify<CR>
 
 
 "------------------------------------------------------------------------------
+" ultisnips settings
+let g:UltiSnipsEditSplit="vertical"
+
+
+"------------------------------------------------------------------------------
 " vim-test settings
 let test#strategy = "neovim"
 let test#neovim#term_position = "vert"

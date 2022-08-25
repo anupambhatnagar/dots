@@ -25,6 +25,9 @@ zstyle :compinstall filename '~/.zshrc'
 autoload -Uz compinit && compinit
 # End of lines added by compinstall
 
+# Make completion case insensitive
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
 # Load the powerlevel10k theme
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
@@ -59,7 +62,7 @@ if [[ "$OS" = "Darwin" ]]; then
   export PATH=/usr/local/Cellar/ruby/3.1.2/bin:$PATH
   export PATH=/usr/local/Cellar/python@3.10/3.10.6_1/bin:$PATH
 
-  alias 'devfair=et devfair:8080 --jport 8080 -x'
+  alias 'devfair=et devfair:8080 --jport 8080' 
 
 else if [[ "$OS" = "Linux" ]]
   export NVM_DIR="$HOME/.nvm"
