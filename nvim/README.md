@@ -29,3 +29,7 @@ If root, access is available then follow the instructions
 
 ## Install Neovim on Mac
 See [here](https://github.com/neovim/neovim/wiki/Installing-Neovim#appimage-universal-linux-package)
+
+## Icons in NerdTree
+Icons in NerdTree require nerd-fonts to be installed. Use brew to install them on Mac. 
+https://github.com/ryanoasis/nerd-fonts#option-4-homebrew-fonts

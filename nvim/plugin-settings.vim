@@ -214,8 +214,8 @@ endfunction
 let host = system('hostname')
 if host == "devfair0234\n"
   let g:python3_host_prog="/private/home/anupamb/miniconda3/bin/python3"
-elseif host == "anupamb-mbp\n"
-  let g:python3_host_prog="/Users/anupamb/miniconda3/bin/python3"
+elseif host == "anupamb-mbp (2)\n"
+  let g:python3_host_prog="/Library/Frameworks/Python.framework/Versions/3.11/bin/python3"
 endif
 
 "------------------------------------------------------------------------------
