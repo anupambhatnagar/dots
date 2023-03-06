@@ -20,6 +20,9 @@
 ## Python3 support for neovim (required for Vimspector)
 `pip3 install --user --upgrade neovim pynvim`
 
+## Create softlink for init.vim and coc-settings.json
+`ln -s ~/github/dots/nvim/init.vim ~/.config/nvim/init.vim`
+
 ## Install Neovim on Linux
 Use the app image if sudo access is not available.
 See [here](https://github.com/neovim/neovim/wiki/Installing-Neovim#appimage-universal-linux-package)
