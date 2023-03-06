@@ -369,3 +369,4 @@ set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
 
 "coc-extensions to install
 let g:coc_global_extensions = ['coc-pyright', 'coc-sh', 'coc-yaml', 'coc-json', 'coc-git', 'coc-clangd', 'coc-cmake']
+hi CocMenuSel ctermbg=237 guibg=#13354A
