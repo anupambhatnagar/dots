@@ -7,7 +7,6 @@ call plug#begin('~/.config/nvim/sources')
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'cdelledonne/vim-cmake'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'flazz/vim-colorschemes'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'voldikss/vim-floaterm'
