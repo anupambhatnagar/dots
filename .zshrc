@@ -37,8 +37,8 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # Setup personal aliases
 alias 'vim=nvim'
 
-alias 'l=ls -lh --color'
-alias 'll=ls -alh --color'
+alias 'l=ls -lh --color --group-directories-first --sort extension'
+alias 'll=ls -alh --color --group-directories-first --sort extension'
 alias 'c=printf "\033[H\033[2J"'
 alias 'x=exit'
 alias '..=cd ..'
